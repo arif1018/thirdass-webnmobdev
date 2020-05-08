@@ -1,0 +1,238 @@
+.self-header{
+    background-color: #316DC3;
+    width: 100%;
+    float: left;
+    height: 50px;
+    margin: 0;
+}
+.h-left-side{
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-left-side > a{
+    padding-left: 20px;
+    line-height: 50px;
+    color: white;
+}
+.h-center-side{
+    width: 50%;
+    text-align: center;
+    color: white;
+    float: left;
+    line-height: 50px;
+}
+.h-right-side{
+    width: 25%;
+    float: left;
+    line-height: 50px;
+    color: grey;
+}
+.h-right-side > a{
+    text-decoration: none;
+    height: 30px;
+    background-color: #F5F5F5;
+    color: gray;
+    padding: 5px;
+font-size: 12px;
+}
+nav > a > img{
+    height: 50px;
+    margin-left: 100px;
+}
+.navbar-nav{
+    padding-right: 100px;
+
+}
+.navbar .navbar-nav li a {
+    color: black !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    font-size: 12px;
+    font-weight: bold;
+}
+.navbar .navbar-nav li a:active{
+    background-color: #316DC3 !important;
+    border-radius: 50%;
+
+}
+.navbar .navbar-nav li a:hover{
+    background-color: #316DC3;
+    border-radius: 100px;
+    padding: 5px;
+}
+.self-new-sec{
+    height: 50px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 10px 0 10px 0;
+}
+.self-new-sec marquee{
+    width: 90%;
+    background-color: #316DC3;
+    margin: 0 5% 0 5%;
+    height: 30px;
+}
+.introduc{
+    margin-top: 50px;
+    text-align: center;
+}
+.introduc h1{
+    color: #316DC3 ;
+}
+.introduc h1 span{
+    color: #427900;
+}
+.introduc p{
+    margin: 0 15% 0 15%;
+    text-align: justify;
+    color: grey;
+}
+.bio-data{
+    background-color: #2755E9;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+.bio-data span{
+    color: #00FF00;
+}
+.bio-data img{
+    margin-top: 100px;
+}
+.bio-data .first{
+    margin-left: 10%;
+    width: 20%;
+    float: left;
+}
+.bio-data .second{
+    width: 20%;
+    float: left;
+}
+.bio-data .third{
+    width: 20%;
+    float: left;
+}
+.bio-data .fourth{
+    width: 20%;
+    float: left;
+}
+.t-bio-data .first{
+    width: 25%;
+    box-shadow: 3px 3px 15px grey;
+    float: left;
+    margin-left: 10%;
+    padding: 20px;
+    text-align: center;
+    color: #316DC3;
+}
+.t-bio-data .second{
+    width: 25%;
+    box-shadow: 3px 3px 15px grey;
+    float: left;
+    margin-left: 5%;
+    padding: 20px;
+    text-align: center;
+    color: #316DC3;
+}
+.t-bio-data .third{
+    width: 25%;
+    box-shadow: 3px 3px 15px grey;
+    float: left;
+    margin-left: 5%;
+    padding: 20px;
+    text-align: center;
+    color: #316DC3;
+}.t-bio-data .fourth{
+    width: 25%;
+    box-shadow: 3px 3px 15px grey;
+    float: left;
+    margin-left: 10%;
+    margin-top: 50PX;
+    padding: 20px;
+    text-align: center;
+    color: #316DC3;
+}.t-bio-data .fifth{
+    width: 25%;
+    box-shadow: 3px 3px 15px grey;
+    float: left;
+    margin-left: 5%;
+    margin-top: 50PX;
+    padding: 20px;
+    text-align: center;
+    color: #316DC3;
+}.t-bio-data .sixth{
+    width: 25%;
+    box-shadow: 3px 3px 15px grey;
+    float: left;
+    margin-left: 5%;
+    margin-top: 50PX;
+    padding: 20px;
+    text-align: center;
+    color: #316DC3;
+}
+
+@media (max-width:668px){
+    .self-header{
+        background-color: #316DC3;
+        width: 100%;
+        float: left;
+        height: 250px;
+        margin: 0;
+    }    
+    .h-left-side{
+        width: 100%;
+    }
+    .h-center-side{
+        width: 100%;
+    }
+    .h-right-side{
+        width: 100%;
+        text-align: center;
+    }
+    .bio-data{
+        background-color: #2755E9;
+        height: 1200px;
+        text-align: center;
+        color: white;
+    }
+    .bio-data .first{
+        width: 100%;
+    }
+    .bio-data .second{
+        width: 100%;
+    }
+    .bio-data .third{
+        width: 100%;
+    }
+    .bio-data .fourth{
+        width: 100%;
+    }
+    .t-bio-data .first{
+        width: 90%;
+        margin: 20px 5% 0 5%;
+
+    }
+    .t-bio-data .second{
+        width: 90%;
+        margin: 20px 5% 0 5%;
+    }
+    .t-bio-data .third{
+        width: 90%;
+        margin: 20px 5% 0 5%;
+    }
+    .t-bio-data .fourth{
+        width: 90%;
+        margin: 20px 5% 0 5%;
+    }
+    .t-bio-data .fifth{
+        width: 90%;
+        margin: 20px 5% 0 5%;
+    }
+    .t-bio-data .sixth{
+        width: 90%;
+        margin: 20px 5% 0 5%;
+    }
+}
